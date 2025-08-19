@@ -1,0 +1,21 @@
+# Dati locali (non caricare i dati grezzi su GitHub)
+data/raw/*
+data/processed/*
+
+# Notebook temporanei
+.ipynb_checkpoints/
+
+# Cache e file temporanei Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# File di configurazione ambiente
+.env
+.venv/
+venv/
+
+# File di sistema
+.DS_Store
+Thumbs.db
